@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonora Residences</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Merriweather"
+    />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="icon" href="img/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="Sonora Residences Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero-container">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <section id="hero-container" class="hero-container">
+      <h1>
+        Where Comfort Meets Convenience – Experience Life Like Never Before.
+      </h1>
+    </section>
+
+    <section id="about" class="introduction">
+      <div class="intro">
+        <h2>Sonora Residences by DMCI Homes</h2>
+        <img src="img/dmci.png" alt="dmci" />
+        <p>
+          DMCI Homes, the real estate arm of DMCI Holdings, is a leading
+          mid-segment developer in the Philippines known for its "resort-like"
+          condominium living, value-for-money properties, and innovative green
+          architecture design, Lumiventt®, which maximizes natural light and air
+          flow.
+        </p>
+        <p>
+          DMCI Homes introduces their new project, Sonora Residences — a modern
+          community that has direct access to Robinsons Place Las Piñas,
+          creating a superb lifestyle just for you.
+        </p>
+        <img src="img/sonora.png" alt="sonora residences" />
+      </div>
+    </section>
+
+    <div class="mvcv-container">
+      <img src="img/sgr_landscape2.jpg" class="landscape" alt="balcony" />
+      <div class="mvcv">
+        <div>
+          <img src="img/mission.png" alt="mission" />
+          <h2>Mission</h2>
+          <p>
+            To be the leading provider of residential communities that create a
+            quality lifestyle, responding to the evolving needs and preferences
+            of the market we serve. We are committed to ensuring customer
+            satisfaction, achieving sustainable growth for our shareholders,
+            fostering strong relationships with our partners, caring for the
+            environment, and promoting the growth of our people.
+          </p>
+        </div>
+        <div>
+          <img src="img/vision.png" alt="vision" />
+          <h2>Vision</h2>
+          <p>
+            To build an organization grounded in Integrity, Excellence, and
+            Interdependence, while continuously delivering superior residential
+            communities that meet the changing demands of our customers and
+            contribute positively to the environment and society.
+          </p>
+        </div>
+        <div>
+          <img src="img/value.png" alt="value" />
+          <h2>Core Values</h2>
+          <p>
+            Our vision is rooted in the core values of Integrity, Excellence,
+            Interdependence, and Customer Orientation. We are committed to
+            always acting ethically, fairly, and with the highest moral
+            standards, believing in profit with honor and good governance. We
+            reject mediocrity and continuously strive for excellence, paying
+            attention to even the smallest details.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlights">
+      <div class="h-text">
+        <p>
+          Sonora Garden Residences is located along Alabang-Zapote Road in Las
+          Piñas City. Its amenities include a kiddie pool, leisure pool, lap
+          pool and snack bar. The property provides residents easy access to
+          retail and dining options, with Robinsons Place Las Piñas as the
+          nearest mall. Additionally, the development is conveniently located
+          near the airport, business districts, educational institutions, and
+          healthcare facilities
+        </p>
+      </div>
+      <div class="h-images-container">
+        <div class="h-images">
+          <img src="img/park.jpg" alt="park" />
+          <img src="img/pool.jpg" alt="pool" />
+          <img src="img/court.jpg" alt="court" />
+        </div>
+        <button class="carousel-button" onclick="nextImage()">&#8594;</button>
+      </div>
+    </div>
+    <div class="cta-container">
+      <a href="contact.html" class="cta-button">Contact Us</a>
+    </div>
+
+    <section class="amenities-showcase">
+      <div class="amenities-header">
+        <h2 id="amenity-title"></h2>
+        <p id="amenity-description"></p>
+      </div>
+      <div class="amenities-carousel-container">
+        <button class="carousel-arrow left-arrow" onclick="prevAmenity()">
+          &#10094;
+        </button>
+        <div class="amenities-carousel"></div>
+        <button class="carousel-arrow right-arrow" onclick="nextAmenity()">
+          &#10095;
+        </button>
+      </div>
+    </section>
+
+    <section class="testimonial-slider">
+      <h2>What Our Residents Say</h2>
+      <div class="testimonial-container">
+        <p class="testimonial-text" id="testimonial"></p>
+        <p class="testimonial-author" id="author"></p>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-logo">
+        <img src="img/sonora.png" alt="Sonora Residences Logo" />
+      </div>
+      <div class="footer-copyright">
+        © 2025 Sonora Residences. All rights reserved.
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
